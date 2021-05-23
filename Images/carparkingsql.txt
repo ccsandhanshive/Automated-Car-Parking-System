@@ -1,0 +1,9 @@
+sampledb
+booking -> UserName ,CarNo,TimeStart,TimeStartMin,TimeEnd,TimeEndMin
+logup->user,passw,carno,sloatno
+sloat_8->Start_hour,Start_min,End_hour,End_min,CarNo,Date;
+payment->Date,UserName,CarNo,TimeStart,TimeStartMin,TimeEnd,TimeEndMin,TotalTime,TotalRs
+canclebooking->Date,UserName,PassWord,CarNo,TimeStart,TimeStartMin,TimeEnd,TimeEndMin,ExTime,Exrs 
+rto_payment->Date,username,PassWord,carno,start_hour,start_min,end_hour,end_min,extra_time,extra_rs
+exitcar->Date,UserName,CarNo,TimeStart,TimeStartMin,TimeEnd,TimeEndMin
+parkcar->UserName,CarNo,TimeStart,TimeStartMin,TimeEnd,TimeEndMin
